@@ -17,7 +17,7 @@ int main(){
 }
 
 void mySwap(int &x,int &y){
-    int diff = y-x;
-	x = x + diff;
-	y = y - diff; 
+    int diff =x;
+	x = y;
+	y = diff; 
 }
