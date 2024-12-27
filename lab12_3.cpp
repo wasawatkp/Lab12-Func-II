@@ -15,3 +15,9 @@ int main(){
 	
 	return 0;
 }
+
+void mySwap(int &x,int &y){
+    int diff = y-x;
+	x = x + diff;
+	y = y - diff; 
+}
